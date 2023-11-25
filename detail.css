@@ -1,0 +1,262 @@
+/* General */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Navigation bar */
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.start{
+  display: flex;
+  gap: 20px;
+}
+.menu-icon{
+  width: 24px;
+  height: 24px;
+}
+
+
+#youtube-icon{
+  width: 90px;
+  height: 24px;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#search-bar{
+  background-color: transparent;
+  border: none;
+}
+.end{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.img{
+ 
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.image{
+  width: 168px;
+  height: 94px;
+  border-radius: 8px;
+  
+}
+.profile{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.nav-icon {
+  position: relative;
+  top: 5px;
+  margin: 0 9px 15px 9px;
+}
+
+.youtube-icon {
+  color: #f00;
+}
+
+.search {
+  display: flex;
+}
+
+input {
+  width: 500px;
+  height: 75%;
+}
+
+.search-button {
+  border: 1px solid #aaa;
+  background-color: #ccc;
+  border-left-width: 0;
+  border-radius: 5px;
+}
+
+/* Flexbox container */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Main video */
+
+.video-and-comments {
+  width: 65%;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+  margin-left: 15px;
+  border: 0;
+}
+
+/* Information about video */
+
+.video-stats {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+ 
+}
+.yotuber-sub-count {
+  color: #909090;
+  line-height: 24px;
+}
+.video-stat-item {
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #39393c;
+  color: #eeeeee;
+  font-size: 14px;
+}
+.title-icon {
+  margin: 5px;
+}
+
+.video-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+figure {
+  margin-left: 10px;
+}
+.avatar{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ 
+ 
+  border-radius: 50%;
+  
+}
+.youtuber-name {
+  /* display: inline;
+  position: relative;
+  bottom: 40px; */
+}
+
+.subscribe {
+  align-self: center;
+  margin-left: 20px;
+}
+
+.subscribe-button {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.video-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px 0;
+  margin-left: 15px;
+}
+
+
+.description {
+  padding: 12px 10px;
+  border-radius: 10px;
+  background-color: #2a2a2a;
+  line-height: 20px;
+  font-size: 14px;
+}
+/* Comment section */
+
+.comment {
+  /* margin-left: 5px; */
+  margin-top: 30px;
+}
+
+.comment-name {
+  /* margin-left: 10px; */
+  font-weight: 500;
+}
+
+.comment-text {
+  margin-left: 9px;
+}
+
+.comment-buttons {
+  margin-left: 9px;
+}
+
+.view-replies {
+  color: #008fff;
+  font-weight: 700;
+}
+
+/*Aside bar*/
+
+aside {
+  width: 32%;
+}
+
+.recommend-video {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.recommend-video-title {
+  font-weight: 500;
+  font-size: 14px;
+}
+#player {
+  border-radius: 8px;
+  overflow: hidden;
+}
+.comment-cout {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 22px 0;
+}
+.avatar-comment {
+  display: flex;
+  align-items: start;
+  margin-bottom: 24px;
+}
+.video-stat-item2 {
+  padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+    margin-top: 10px;
+}
+.content-comment {
+  color: #eeeeee;
+  margin-top: 10px;
+  line-height: 18px;
+  font-size: 14px;
+}
+.video-info-recommend {
+  /* margin: 5px 0 0 5px; */
+}
+
+.creator-name {
+  line-height: 18px;
+  font-size: 14px;
+  color: #aaaaaa;
+  margin: 10px 0;
+}
